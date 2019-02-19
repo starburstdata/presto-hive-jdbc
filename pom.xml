@@ -698,4 +698,15 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://nexus.aws.starburstdata.com:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://nexus.aws.starburstdata.com:8081/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
 </project>
