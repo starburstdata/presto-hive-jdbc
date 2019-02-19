@@ -701,11 +701,11 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
+            <id>nexus</id>
             <url>http://nexus.aws.starburstdata.com:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
+            <id>nexus</id>
             <url>http://nexus.aws.starburstdata.com:8081/nexus/content/repositories/releases</url>
         </repository>
     </distributionManagement>
